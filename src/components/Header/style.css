@@ -1,0 +1,334 @@
+.header {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  position: relative;
+}
+
+.header .frame {
+  align-items: center;
+  background-color: #ffffff;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 62.5px;
+  justify-content: center;
+  padding: 50px 150px 0px;
+  position: relative;
+}
+
+.header .ship-up {
+  color: transparent;
+  font-family: "Lato", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  width: fit-content;
+}
+
+.header .text-wrapper {
+  color: #2c2d5b;
+  font-weight: 300;
+}
+
+.header .span {
+  color: #f67366;
+  font-weight: 900;
+}
+
+.header .div {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 30px;
+  position: relative;
+}
+
+.header .frame-2 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 5px;
+  position: relative;
+}
+
+.header .company {
+  font-family: "Lato", Helvetica;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  width: fit-content;
+}
+
+.header .chevron-down {
+  height: 24px;
+  position: relative;
+  width: 24px;
+}
+
+.header .text-wrapper-2 {
+  color: rgba(20, 20, 20, 1);
+  font-family: "Lato", Helvetica;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  width: fit-content;
+}
+
+.header .request-quote-wrapper {
+  align-items: center;
+  border: 1px solid;
+  border-color: rgba(44, 45, 91, 1);
+  border-radius: 12px;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  justify-content: center;
+  overflow: hidden;
+  padding: 20px 40px;
+  position: relative;
+}
+
+.header .request-quote {
+  color: rgba(44, 45, 91, 1);
+  font-family: "Lato", Helvetica;
+  font-size: 14px;
+  font-weight: 800;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  width: fit-content;
+}
+
+.header .join-now-wrapper {
+  align-items: center;
+  background-color: rgba(44, 45, 91, 1);
+  border-radius: 12px;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  justify-content: center;
+  overflow: hidden;
+  padding: 20px 40px;
+  position: relative;
+}
+
+.header .join-now {
+  color: rgba(255, 255, 255, 1);
+  font-family: "Lato", Helvetica;
+  font-size: 14px;
+  font-weight: 800;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  width: fit-content;
+}
+
+.main-frame {
+  background-color: #ffffff;
+  border-radius: 0px 0px 8px 8px;
+  box-shadow: 0px 8px 4px #0000001c;
+  height: 341px;
+  left: 299px;
+  overflow: hidden;
+  position: absolute;
+  top: 117px;
+  width: 779px;
+}
+
+.main-frame .text-wrapper-3 {
+  color:  rgba(20, 20, 20, 1);
+  font-family: "Lato", Helvetica;
+  font-size: 24px;
+  font-weight: 700;
+  height: 29px;
+  left: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 22px;
+}
+
+.main-frame .text-wrapper-4 {
+  color:  rgba(20, 20, 20, 1);
+  font-family: "Lato", Helvetica;
+  font-size: 24px;
+  font-weight: 700;
+  height: 29px;
+  left: 426px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 22px;
+}
+
+.main-frame .about-US {
+  color:  rgba(20, 20, 20, 1);
+  font-family: "Lato", Helvetica;
+  font-size: 16px;
+  font-weight: 700;
+  height: 19px;
+  left: 81px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 72px;
+  white-space: nowrap;
+}
+
+.main-frame .the-people-behind {
+  color: #6e6e6e;
+  font-family: "Lato", Helvetica;
+  font-size: 14px;
+  font-weight: 500;
+  height: 34px;
+  left: 81px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 99px;
+}
+
+.main-frame .collbration-with {
+  color: #6e6e6e;
+  font-family: "Lato", Helvetica;
+  font-size: 14px;
+  font-weight: 500;
+  height: 34px;
+  left: 81px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 188px;
+}
+
+.main-frame .text-wrapper-5 {
+  color: #6e6e6e;
+  font-family: "Lato", Helvetica;
+  font-size: 14px;
+  font-weight: 500;
+  height: 17px;
+  left: 81px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 277px;
+}
+
+.main-frame .text-wrapper-6 {
+  color: #6e6e6e;
+  font-family: "Lato", Helvetica;
+  font-size: 14px;
+  font-weight: 500;
+  height: 17px;
+  left: 426px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 246px;
+}
+
+.main-frame .text-wrapper-7 {
+  color: #f67366;
+  font-family: "Lato", Helvetica;
+  font-size: 13px;
+  font-weight: 700;
+  height: 16px;
+  left: 426px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 278px;
+}
+
+.main-frame .text-wrapper-8 {
+  color:  rgba(20, 20, 20, 1);
+  font-family: "Lato", Helvetica;
+  font-size: 16px;
+  font-weight: 700;
+  height: 19px;
+  left: 81px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 161px;
+  white-space: nowrap;
+}
+
+.main-frame .text-wrapper-9 {
+  color:  rgba(20, 20, 20, 1);
+  font-family: "Lato", Helvetica;
+  font-size: 16px;
+  font-weight: 700;
+  height: 19px;
+  left: 81px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 250px;
+  white-space: nowrap;
+}
+
+.main-frame .img {
+  height: 20px;
+  left: 25px;
+  position: absolute;
+  top: 89px;
+  width: 36px;
+}
+
+.main-frame .frame-4 {
+  height: 20px;
+  left: 25px;
+  position: absolute;
+  top: 179px;
+  width: 36px;
+}
+
+.main-frame .frame-5 {
+  height: 36px;
+  left: 25px;
+  position: absolute;
+  top: 261px;
+  width: 36px;
+}
+
+.main-frame .image {
+  height: 161px;
+  left: 426px;
+  object-fit: cover;
+  position: absolute;
+  top: 71px;
+  width: 242px;
+}
+
+.main-frame .arrow-right {
+  height: 12px;
+  left: 496px;
+  position: absolute;
+  top: 282px;
+  width: 12px;
+}
+
+.main-frame.variant-2 {
+  height: 487px;
+}
+
+.main-frame.default .company {
+  color:  rgba(20, 20, 20, 1);
+}
+
+.main-frame.variant-2 .company {
+  color: #f67366;
+}
